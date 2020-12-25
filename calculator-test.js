@@ -14,4 +14,3 @@ it("should return a result with 2 decimal places", function() {
   expect(numDecimal(calculateMonthlyPayment({amount:10000,years:3,rate:0.04}))).toEqual(2);
 });
 
-/// etc
